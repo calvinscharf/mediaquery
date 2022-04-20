@@ -1,14 +1,20 @@
 header {
     background-color: bisque;
     grid-area: header;
+    border: 5px dotted black;
+    color: purple;
+
   }
   main {
     background-color: cadetblue;
     grid-area: main;
+    border: 2px dashed rgb(209, 12, 12);
+    color: purple;
   }
   nav {
     background-color: coral;
     grid-area: nav;
+    border: 3px solid purple;
   }
   aside {
     background-color: crimson;
@@ -17,6 +23,7 @@ header {
   .banner {
     background-color: darkkhaki;
     grid-area: banner;
+    border: 10px solid black;
   }
   footer {
     background-color: darkslategrey;
@@ -56,3 +63,24 @@ header {
       justify-content: space-evenly;
     }
   }
+    /* Extra Small and up (Portrait Phones) */
+
+  /* Small and up (Landscape Phones) */
+  @media (min-width: 576px) {
+
+}
+
+/* Medium and up (Tablets) */
+@media (min-width: 768px) {
+
+}
+
+/* Large and up (Desktops) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra Large and up (Wide Screen Desktops) */
+@media (min-width: 1200px) {
+
+}
