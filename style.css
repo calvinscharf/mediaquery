@@ -3,18 +3,20 @@ header {
     grid-area: header;
     border: 5px dotted black;
     color: purple;
-
+    text-align: right;
   }
   main {
     background-color: cadetblue;
     grid-area: main;
     border: 2px dashed rgb(209, 12, 12);
     color: purple;
+    text-align: center;
   }
   nav {
     background-color: coral;
     grid-area: nav;
     border: 3px solid purple;
+    text-align: center;
   }
   aside {
     background-color: crimson;
@@ -24,6 +26,7 @@ header {
     background-color: darkkhaki;
     grid-area: banner;
     border: 10px solid black;
+    text-align: right;
   }
   footer {
     background-color: darkslategrey;
